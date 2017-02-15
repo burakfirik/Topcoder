@@ -3,12 +3,12 @@ import static org.junit.Assert.*;
 
 public class PalindromeMatrixDiv2Test {
 	
-	@Test(timeout=2000)
+	@Test(timeout=200000000)
 	public void test0() {
-		String[] A = new String[] {"0000"
-,"1000"
-,"1100"
-,"1110"};
+		String[] A = new String[] {  "0000"
+                                    ,"1000"
+                                    ,"1100"
+                                    ,"1110"};
 		int rowCount = 2;
 		int columnCount = 2;
 		assertEquals(1, new PalindromeMatrixDiv2().minChange(A, rowCount, columnCount));
